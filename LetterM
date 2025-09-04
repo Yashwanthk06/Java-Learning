@@ -1,0 +1,10 @@
+import java.util.*;
+class LetterM{
+    public static void main(String[]args){
+        Scanner sc= new Scanner(System.in);
+       String a=sc.nextLine();
+       int b = a.length();
+      System.out.println("the first letter is"+a.charAt(0));
+      System.out.println("the last letter is"+a.charAt(b-1));
+    }
+}
